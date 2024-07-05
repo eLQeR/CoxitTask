@@ -1,8 +1,7 @@
 import io
 
 from fastapi import APIRouter, UploadFile
-from src.summary.config import summarization_text
-from src.summary.utils import read_pdf_file
+from src.summary.utils import read_pdf_file, summarization_text
 
 router = APIRouter()
 
